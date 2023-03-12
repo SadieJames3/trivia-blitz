@@ -62,11 +62,30 @@ ul, li {
     padding: 6px;
     transition: transform .15s;
 }
-/* 
+
+.answers-box > li:hover {
+    background-color: gray;
+    color: blue;
+}
+
+/* .possible:hover {
+    background-color: gray;
+    cursor: pointer;
+} */
+
+/* .right-answer: active {
+    background-color: green;
+}
+
+.wrong-answer: active {
+    background-color: red;
+} */
+
+
 .green {
     background-color: #0b0;
 }
 
 .red {
     background-color: #e23;
-} */
+}
